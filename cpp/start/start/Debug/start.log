@@ -1,0 +1,4 @@
+﻿  1625.cpp
+c:\users\82106\desktop\개발\ssafy\pythonstudy_in_boj\cpp\start\start\1625.cpp(131): warning C4804: '~': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+c:\users\82106\desktop\개발\ssafy\pythonstudy_in_boj\cpp\start\start\1625.cpp(132): warning C4804: '~': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+  start.vcxproj -> C:\Users\82106\Desktop\개발\ssafy\pythonstudy_in_BOJ\cpp\start\Debug\start.exe
