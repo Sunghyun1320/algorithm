@@ -57,7 +57,7 @@ int main()
 	std::cin.tie(0);
 	std::cout.tie(0);
 
-	freopen("input_0710_24.txt", "r", stdin);
+	freopen("input_0701_24.txt", "r", stdin);
 
 	int T;
 

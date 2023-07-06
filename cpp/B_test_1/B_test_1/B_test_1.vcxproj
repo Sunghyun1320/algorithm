@@ -192,8 +192,12 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="0701_24.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="0701_25.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="0701_27.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input_0610_3.txt" />
@@ -209,7 +213,9 @@
     <Text Include="input_0617_2.txt" />
     <Text Include="input_0617_3.txt" />
     <Text Include="input_0617_4.txt" />
-    <Text Include="input_0710_24.txt" />
+    <Text Include="input_0701_25.txt" />
+    <Text Include="input_0701_27.txt" />
+    <Text Include="input_0701_24.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

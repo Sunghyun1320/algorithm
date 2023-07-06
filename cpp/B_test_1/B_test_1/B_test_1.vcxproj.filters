@@ -66,6 +66,12 @@
     <ClCompile Include="0701_24.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0701_25.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0701_27.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input_0603_3.txt">
@@ -107,7 +113,13 @@
     <Text Include="input_0610_7.txt">
       <Filter>리소스 파일</Filter>
     </Text>
-    <Text Include="input_0710_24.txt">
+    <Text Include="input_0701_25.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_0701_27.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_0701_24.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
