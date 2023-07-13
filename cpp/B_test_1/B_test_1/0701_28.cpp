@@ -81,44 +81,23 @@ void solve(int test_case)
 	{
 		if (j == M) break;
 		
-		int before = abs(cow_z[i] - horse_z[j]);
+		int before = 1000000000;
 		int now;
 
-		while (j <= M)
+		while (j < M)
 		{
-			if (j == M)
-			{
-				if (answer == before) count++;
-				else if (answer > before)
-				{
-					answer = before;
-					count = 1;
-				}
-				break;
-			}
-
-
 			now = abs(cow_z[i] - horse_z[j]);
-			if(now > before)
+
+			if (answer == now) count++;
+			else if (answer > now)
 			{
-				if (answer == before) count++;
-				else if (answer > before)
-				{
-					answer = before;
-					count = 1;
-				}
-				break;
+				answer = now;
+				count = 1;
 			}
 
-			else if (now == before)
+			if (now > before)
 			{
-				if (answer == before) count += 2;
-				else if (answer > before)
-				{
-					answer = before;
-					count = 2;
-				}
-				
+				j--;
 				break;
 			}
 
