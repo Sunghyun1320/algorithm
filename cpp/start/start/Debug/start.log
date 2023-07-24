@@ -1,3 +1,3 @@
 ﻿  16226.cpp
-c:\users\ssafy\desktop\sh\algorithm\cpp\start\start\16226.cpp(52): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  start.vcxproj -> C:\Users\SSAFY\Desktop\sh\algorithm\cpp\start\Debug\start.exe
+c:\users\82106\desktop\개발\ssafy\algorithm\cpp\start\start\16226.cpp(42): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  start.vcxproj -> C:\Users\82106\Desktop\개발\ssafy\algorithm\cpp\start\Debug\start.exe

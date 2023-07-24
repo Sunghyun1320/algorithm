@@ -1,17 +1,27 @@
 #include <iostream>
 #include <queue>
 #include <vector>
+#include <algorithm>
+
+bool compare(int a, int b)
+{
+	if (a > 100001) a -= 100001;
+	if (b > 100001) b -= 100001;
+
+	return a < b;
+}
+
+int n;
+std::vector<int> mirror[100001];
+int answer = 0;
 
 int main()
 {
 	std::ios_base::sync_with_stdio(0);
 	std::cin.tie(0);
 
-	int n;
 	std::cin >> n;
 
-	std::priority_queue<int> mirror[100001];
-	std::vector<std::pair<int, int>> cat(n);
 
 	//거울 위치 저장 후 고양이 순서를 거울 위로 저장
 	//(1~100000 이므로 0부터 하기위해 고양이 위치를 거울위치로 바꿈)
@@ -20,42 +30,25 @@ int main()
 		int x, y;
 		std::cin >> x >> y;
 
-		mirror[x].push(y);
-		cat[i] = { x - 1, y };
+		mirror[x].push_back(y);
+		mirror[x - 1].push_back(100001 + y);
 	}
 
-	std::vector<std::pair<int, bool>> kill_line[100001];
 
-	for (int i = 0; i < 100001; i++)
+	for (int i = 0; i < 100000; i++)
 	{
-		kill_line[i].resize(mirror[i].size() + 2);
-		kill_line[i][0] = { -1, false };
-
-		int j = 1;
-
-		while (!mirror[i].empty())
+		std::sort(mirror[i].begin(), mirror[i].end(), compare);
+		bool check = true;
+		for (int j = 0; j < mirror[i].size(); j++)
 		{
-			kill_line[i][j] = { mirror[i].top(), false };
-			mirror[i].pop();
-			j++;
-		}
-
-		kill_line[i][j] = { 100001,false };
-
-	}
-
-	int answer = 0;
-	for (int i = 0; i < n; i++)
-	{
-		std::pair<int, int> attack = cat[i];
-
-		for (int i = 0; i < kill_line[attack.first].size(); i++)
-		{
-			if (kill_line[attack.first][i].first > attack.second && !kill_line[attack.first][i - 1].second)
+			if (mirror[i][j] > 100000 && check)
 			{
-				kill_line[attack.first][i - 1].second = true;
+				check = false;
 				answer++;
 			}
+
+			if (mirror[i][j] <= 100000)
+				check = true;
 		}
 	}
 
