@@ -17,6 +17,7 @@ int max(int a, int b) {
 const int dx[4] = { 0,1,0,-1 };
 const int dy[4] = { 1,0,-1,0 };
 
+//필요한 기본 변수들
 int N, M, K, L, X, Y;
 char map[100][100];
 int detail[100][100];
@@ -64,6 +65,7 @@ struct Item {
 } item[10000];
 
 
+// 맵의 상황을 받으며 아이템 개수, 몬스터 수, 플레이어 위치 등을 저장하는 함수 
 void GetInfo() {
 	char temp;
 	for (int i = 0; i < N; i++) {
@@ -82,6 +84,7 @@ void GetInfo() {
 	}
 }
 
+// 이이템 정보를 편의에 맞게 숫자로 바꿔주는 함수
 int ChangeACCNum() {
 	char type[2];
 	std::cin >> type[0] >> type[1];
@@ -96,6 +99,7 @@ int ChangeACCNum() {
 	return 0;
 }
 
+// 몬스터나 아이템 등의 구체적인 정보를 받아와서 저장하는 함수
 void GetDetailInfo() {
 	int x, y;
 	for (int i = 0; i < K; i++) {
@@ -119,6 +123,7 @@ void GetDetailInfo() {
 	}
 }
 
+// 전체 명령을 받고 방향을 숫자로 바꿔서 저장하는 함수
 void GetOrder() {
 	std::string order_str;
 	std::cin >> order_str;
@@ -144,19 +149,24 @@ void fight(Monster monster, bool isboss) {
 	int mon_dmg = max(1, monster.ATT - player.DEF - player.A);
 	int mon_HP = monster.HP;
 
+	// 보스 관련 악세서리 효과 발동
+	if (isboss && player.acc[5]) {
+		player.HP = player.MAX_HP;
+	}
 	//악세서리 효과 발동으로 첫 전투 진행
 	if (player.acc[2]){
 		if (player.acc[4])
 			mon_HP = max(0, mon_HP - max(1, (player.ATT + player.W) * 3 - monster.DEF));
 		else
 			mon_HP = max(0, mon_HP - max(1, (player.ATT + player.W) * 2 - monster.DEF));
-		player.HP -= mon_dmg;
 	}
+	else mon_HP = max(0, mon_HP - my_dmg);
 
-	// 악세서리 효과로 보스전투시 최대체력 회복 및 데미지 무시
-	// 첫 전투 이후 최대체력 상태라는 의미
-	if (isboss && player.acc[5]) {
-		player.HP = player.MAX_HP;
+	// 첫 일격에 죽였다면 리턴
+	if (mon_HP == 0) return;
+	// 보스악세 효과 없으면 피해 입음
+	if (!isboss || !player.acc[5]) {
+		player.HP -= mon_dmg;
 	}
 
 	// 몬스터를 죽이기 위한 횟수의 -1 번만큼 데미지를 입는다.
@@ -165,7 +175,6 @@ void fight(Monster monster, bool isboss) {
 	//int check = bool(monster.HP%my_dmg) ? 0 : 1;
 	int fightcount = int(mon_HP / my_dmg) - (bool(mon_HP%my_dmg) ? 0 : 1);
 	player.HP -= mon_dmg * fightcount;
-	
 }
 
 // 경험치 획득 함수
