@@ -1,2 +1,4 @@
-﻿  7579.cpp
+﻿  9527.cpp
+c:\users\steamer\desktop\algorithm\cpp\boj\boj\9527.cpp(13): warning C4334: '<<': 32비트 시프트의 결과가 암시적으로 64비트로 변환됩니다. 64비트 시프트를 사용하시겠습니까?
+c:\users\steamer\desktop\algorithm\cpp\boj\boj\9527.cpp(14): warning C4334: '<<': 32비트 시프트의 결과가 암시적으로 64비트로 변환됩니다. 64비트 시프트를 사용하시겠습니까?
   BOJ.vcxproj -> C:\Users\steamer\Desktop\algorithm\cpp\BOJ\Debug\BOJ.exe
