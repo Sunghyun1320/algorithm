@@ -45,5 +45,8 @@
     <ClCompile Include="2042_chatGPT.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="N_and_M.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
