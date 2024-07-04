@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="20048.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input_20048.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{EBEECDA5-CF3D-4BEC-AB15-0D78209C98E1}</ProjectGuid>
