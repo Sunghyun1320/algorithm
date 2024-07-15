@@ -22,6 +22,7 @@
     <ClCompile Include="19190.cpp" />
     <ClCompile Include="20048.cpp" />
     <ClCompile Include="20671.cpp" />
+    <ClCompile Include="temp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input_19190.txt" />
