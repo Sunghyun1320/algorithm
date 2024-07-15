@@ -18,9 +18,19 @@
     <ClCompile Include="20048.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="20671.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19190.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input_20048.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_20671.txt" />
+    <Text Include="input_19190.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
