@@ -1,2 +1,5 @@
-﻿  N_and_M.cpp
-  BOJ.vcxproj -> C:\Users\sinnam\Desktop\algorithm\cpp\BOJ\Debug\BOJ.exe
+﻿  14621.cpp
+c:\users\82106\desktop\algorithm\cpp\boj\boj\14621.cpp(98): warning C4091: 'typedef ': 변수를 선언하지 않으면 'path' 왼쪽은 무시됩니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\14621.cpp(118): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vector' 왼쪽은 무시됩니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\14621.cpp(156): warning C4091: 'typedef ': 변수를 선언하지 않으면 'pq' 왼쪽은 무시됩니다.
+  BOJ.vcxproj -> C:\Users\82106\Desktop\algorithm\cpp\BOJ\Debug\BOJ.exe

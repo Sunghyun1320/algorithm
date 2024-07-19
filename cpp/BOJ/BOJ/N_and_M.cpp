@@ -1,3 +1,4 @@
+#if 0
 // 15649 (1)
 #define _CRT_SECURE_NO_SECURE_
 
@@ -575,3 +576,4 @@ int main() {
 
 
 }
+#endif
