@@ -1,5 +1,29 @@
-﻿  14621.cpp
-c:\users\82106\desktop\algorithm\cpp\boj\boj\14621.cpp(98): warning C4091: 'typedef ': 변수를 선언하지 않으면 'path' 왼쪽은 무시됩니다.
-c:\users\82106\desktop\algorithm\cpp\boj\boj\14621.cpp(118): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vector' 왼쪽은 무시됩니다.
-c:\users\82106\desktop\algorithm\cpp\boj\boj\14621.cpp(156): warning C4091: 'typedef ': 변수를 선언하지 않으면 'pq' 왼쪽은 무시됩니다.
-  BOJ.vcxproj -> C:\Users\82106\Desktop\algorithm\cpp\BOJ\Debug\BOJ.exe
+﻿  5719.cpp
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(303): warning C4091: 'typedef ': 변수를 선언하지 않으면 'seq' 왼쪽은 무시됩니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(332): warning C4091: 'typedef ': 변수를 선언하지 않으면 'vector' 왼쪽은 무시됩니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(405): warning C4091: 'typedef ': 변수를 선언하지 않으면 'pq' 왼쪽은 무시됩니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(374): error C2819: 'route' 형식에 오버로드된 멤버 'operator ->'가 없습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(336): note: 'route' 선언을 참조하십시오.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(374): note: 대신 '.'을(를) 사용하려고 했습니까?
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(374): error C2232: '->route::dist': 왼쪽 피연산자에 'struct' 형식이 있습니다. '.'를 사용하십시오.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(378): error C2679: 이항 '=': 오른쪽 피연산자로 'route *' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(341): note: 'route &route::operator =(route &&)'일 수 있습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(341): note: 또는       'route &route::operator =(const route &)'
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(378): note: 인수 목록 '(route, route *)'을(를) 일치시키는 동안
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(382): error C2100: 간접 참조가 잘못되었습니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(383): error C2664: 'void free(void *)': 인수 1을(를) 'route'에서 'void *'(으)로 변환할 수 없습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(383): note: 이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(384): error C2440: '초기화 중': 'route'에서 'route *'(으)로 변환할 수 없습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(384): note: 이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(389): error C2819: 'route' 형식에 오버로드된 멤버 'operator ->'가 없습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(336): note: 'route' 선언을 참조하십시오.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(389): note: 대신 '.'을(를) 사용하려고 했습니까?
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(389): error C2232: '->route::dist': 왼쪽 피연산자에 'struct' 형식이 있습니다. '.'를 사용하십시오.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(390): error C2819: 'route' 형식에 오버로드된 멤버 'operator ->'가 없습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(336): note: 'route' 선언을 참조하십시오.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(390): note: 대신 '.'을(를) 사용하려고 했습니까?
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(390): error C2232: '->route::dist': 왼쪽 피연산자에 'struct' 형식이 있습니다. '.'를 사용하십시오.
+c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(395): error C2679: 이항 '=': 오른쪽 피연산자로 'route *' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(341): note: 'route &route::operator =(route &&)'일 수 있습니다.
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(341): note: 또는       'route &route::operator =(const route &)'
+  c:\users\82106\desktop\algorithm\cpp\boj\boj\5719.cpp(395): note: 인수 목록 '(route, route *)'을(를) 일치시키는 동안

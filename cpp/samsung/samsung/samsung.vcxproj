@@ -23,11 +23,13 @@
     <ClCompile Include="20048.cpp" />
     <ClCompile Include="20671.cpp" />
     <ClCompile Include="19190_answer.cpp" />
+    <ClCompile Include="20936.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input_19190.txt" />
     <Text Include="input_20048.txt" />
     <Text Include="input_20671.txt" />
+    <Text Include="input_20936.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

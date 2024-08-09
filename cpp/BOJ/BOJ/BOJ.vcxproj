@@ -156,6 +156,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="14621.cpp" />
+    <ClCompile Include="1927.cpp" />
+    <ClCompile Include="1939.cpp" />
+    <ClCompile Include="5719.cpp" />
     <ClCompile Include="N_and_M.cpp" />
     <ClCompile Include="17081.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
