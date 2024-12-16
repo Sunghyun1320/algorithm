@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="20048.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20671.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19190.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19190_answer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="view.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="단순_2진_암호코드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소수완제품확률.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="전자게시판.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="섬지키기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="일정관리3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="vod.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="최대상금.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="균형점.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="magnetic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수명이 절반.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="회문.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GNS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="아나그램.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="가장짧은길.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="달란트2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="작업순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LCA.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="중위순회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="사칙연산유효성.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="사칙연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="줄세우기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pole.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="비밀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="고속도로건설2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="단어가 등장하는 횟수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="두 번 이상 등장하는 문자열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Convex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Closest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="간담회 참석.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="inversioncounting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="프리랜서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="All pair shortest path.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="타일링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LCS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input_20048.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_19190.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_1.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="view_test_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="암호_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="소수완제품확률.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="전자게시판.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="섬지키기.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="일정관리3.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="vod_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="최대상금_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="균형점_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="magnetic_test_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="string_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="회문_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="GNS_test_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="아나그램_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="가장빠른길_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="작업순서_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="LCA_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="중위순회_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="사칙연산유효성_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="사칙연산_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input_20671.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="pole_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="간담회 참석_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="고속도로건설2.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="단어가 등장하는 횟수_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="비밀_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="수명이 절반.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="줄세우기_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="괄호_input.txt" />
+    <Text Include="Inversion Counting_input.txt" />
+    <Text Include="프리랜서_input.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+10
+init
+insert Gimbab 3000
+delete Kimbab
+insert Udon 6000
+init
+insert Udon 7000
+insert EelSushi 17000
+insert Sushi 14000
+rank 3
+sum 15000

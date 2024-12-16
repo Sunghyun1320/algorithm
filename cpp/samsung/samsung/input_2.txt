@@ -1,0 +1,33 @@
+32
+init
+delete hat
+delete hop
+delete dong
+insert jack 2000
+sum 13000
+init
+insert hat 18000
+sum 1000
+rank 4
+sum 16000
+insert lip 20000
+insert bow 20000
+delete map
+rank 3
+sum 19000
+insert lucas 9000
+rank 4
+sum 4000
+insert david 12000
+sum 19000
+delete cat
+sum 11000
+insert fly 5000
+insert dong 16000
+sum 10000
+insert will 5000
+insert dong 13000
+sum 10000
+rank 3
+sum 17000
+rank 6
